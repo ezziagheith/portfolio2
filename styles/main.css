@@ -1,0 +1,66 @@
+.backgroundimage{
+    background:url('/images/backgroundpic.png');
+    position: relative;
+    z-index: 0;
+}
+
+.backgroundcolor{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 68.5%;
+    background: rgba(231, 206, 215, 0.7);
+}
+
+#firstlastname{
+    position: absolute;
+    z-index: 3;
+    width: 1497px;
+    height: 82px;
+    left: -20px;
+    top: 120px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 78px;
+    line-height: 95px;
+    text-align: center;
+    color: #444444;
+}
+
+#positiontitle{
+    position: absolute;
+    z-index: 3;
+    width: 1497px;
+    height: 82px;
+    left: -1px;
+    top: 250px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+    color: #444444;
+}
+
+.mywork{
+    background: #E5E5E5;
+}
+
+#my-work-text{
+    position: absolute;
+    width: 1497px;
+    height: 82px;
+    left: -20px;
+    top: 600px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 68px;
+    line-height: 83px;
+    text-align: center;
+    color: #444444;
+}
