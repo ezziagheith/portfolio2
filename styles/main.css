@@ -68,7 +68,7 @@
 #videosupreme{
     position: absolute;
     z-index: 1;
-    top: 750px;
+    top: 740px;
     left: 302px;
 }
 
@@ -150,7 +150,7 @@
     position: absolute;
     width: 394px;
     height: 31px;
-    left: 310px;
+    left: 265px;
     top: 1170px;
     font-family: Montserrat;
     font-style: normal;
@@ -164,7 +164,7 @@
     position: absolute;
     width: 401px;
     height: 29px;
-    left: 311px;
+    left: 270px;
     top: 1209px;
     font-family: Montserrat;
     font-style: normal;
@@ -178,7 +178,7 @@
     position: absolute;
     width: 394px;
     height: 141px;
-    right: 480px;
+    right: 520px;
     top: 460px;
     font-family: Montserrat;
     font-style: normal;
@@ -208,3 +208,23 @@
     bottom: -4px;
     left: 40px;
 }
+
+#revive-video{
+    position: absolute;
+    z-index: 1;
+    left: 40px;
+    top: 380px;
+}
+
+#reviveback-color{
+    position: absolute;
+    z-index: 0;
+    width: 480px;
+    height: 352px;
+    left: 5px;
+    top: 390px;
+    background: #E30052;
+}
+
+/* left: 269px;
+top: 753px; */
