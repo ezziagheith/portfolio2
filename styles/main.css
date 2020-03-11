@@ -50,12 +50,12 @@
     background: #E5E5E5;
 }
 
-#my-work-text{
+#projects-text{
     position: absolute;
     width: 1497px;
     height: 82px;
     left: -20px;
-    top: 600px;
+    top: 520px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -63,4 +63,148 @@
     line-height: 83px;
     text-align: center;
     color: #444444;
+}
+
+#videosupreme{
+    position: absolute;
+    z-index: 1;
+    top: 750px;
+    left: 302px;
+}
+
+#supremeback-color{
+    position: absolute;
+    z-index: 0;
+    width: 480px;
+    height: 352px;
+    left: 269px;
+    top: 753px;
+    background: #FD69B4;
+}
+
+#supreme-text{
+    position: absolute;
+    width: 394px;
+    height: 31px;
+    left: 792px;
+    top: 720px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 37px;
+    color: #FD69B4;
+}
+
+#frameworks-supreme{
+    position: absolute;
+    width: 401px;
+    height: 29px;
+    left: 793px;
+    top: 760px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    color: #444444;
+}
+
+#supreme-roles{
+    position: absolute;
+    width: 387px;
+    height: 141px;
+    left: 793px;
+    top: 820px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 18px;
+    color: #444444;
+}
+
+#supreme-button{
+    position: absolute;
+    left: 60px;
+    right: 0px;
+    top: 210px;
+    bottom: 0px;
+    background: #FD69B4;
+    box-shadow: 0px 8px 16px rgba(0, 126, 255, 0.16);
+    border-radius: 8px;
+    width: 220px;
+    height: 65px;
+}
+
+.view-web-text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 2px;
+    left: 50px;
+    top: -5px;
+}
+
+#revive-text{
+    position: absolute;
+    width: 394px;
+    height: 31px;
+    left: 310px;
+    top: 1170px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 34px;
+    color: #E30052;
+}
+
+#frameworks-revive{
+    position: absolute;
+    width: 401px;
+    height: 29px;
+    left: 311px;
+    top: 1209px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    color: #444444;
+}
+
+#revive-roles{
+    position: absolute;
+    width: 394px;
+    height: 141px;
+    right: 480px;
+    top: 460px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 18px;
+    color: #444444;
+}
+
+#revive-button{
+    position: absolute;
+    left: 50px;
+    right: 0px;
+    top: 230px;
+    bottom: 0px;
+    width: 220px;
+    height: 65px;
+    background: #E30052;
+    box-shadow: 0px 8px 16px rgba(0, 126, 255, 0.16);
+    border-radius: 8px;
+}
+
+.view-web-text2{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: -4px;
+    left: 40px;
 }
