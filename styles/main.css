@@ -21,7 +21,7 @@
     height: 82px;
     left: -20px;
     top: 120px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 78px;
@@ -37,7 +37,7 @@
     height: 82px;
     left: -1px;
     top: 250px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 35px;
@@ -56,7 +56,7 @@
     height: 82px;
     left: -20px;
     top: 520px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 68px;
@@ -88,7 +88,7 @@
     height: 31px;
     left: 792px;
     top: 720px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -102,10 +102,10 @@
     height: 29px;
     left: 793px;
     top: 760px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 18px;
     color: #444444;
 }
@@ -116,13 +116,15 @@
     height: 141px;
     left: 793px;
     top: 820px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
     line-height: 18px;
     color: #444444;
 }
+
+
 
 #supreme-button{
     position: absolute;
@@ -142,8 +144,9 @@
     font-size: 20px;
     position: absolute;
     bottom: 2px;
-    left: 50px;
-    top: -5px;
+    left: 45px;
+    top: -6px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #revive-text{
@@ -152,7 +155,7 @@
     height: 31px;
     left: 265px;
     top: 1170px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -166,7 +169,7 @@
     height: 29px;
     left: 270px;
     top: 1209px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
@@ -180,7 +183,7 @@
     height: 141px;
     right: 520px;
     top: 460px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
@@ -192,7 +195,7 @@
     position: absolute;
     left: 50px;
     right: 0px;
-    top: 230px;
+    top: 255px;
     bottom: 0px;
     width: 220px;
     height: 65px;
@@ -207,6 +210,7 @@
     position: absolute;
     bottom: -4px;
     left: 40px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #revive-video{
@@ -226,5 +230,90 @@
     background: #E30052;
 }
 
-/* left: 269px;
-top: 753px; */
+#hoopers-video{
+    position: absolute;
+    z-index: 1;
+    width: 414px;
+    height: 324px;
+    left: 288px;
+    top: 1644px;
+}
+
+#hoopersback-color{
+    position: absolute;
+    z-index: 0;
+    width: 480px;
+    height: 352px;
+    left: 255px;
+    top: 1650px;
+    background: #FC1393;
+}
+
+#hoopers-text{
+    position: absolute;
+    width: 394px;
+    height: 31px;
+    left: 792px;
+    top: 1620px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 34px;
+    color: #FC1393;
+}
+
+#frameworks-hoopers{
+    position: absolute;
+    width: 401px;
+    height: 29px;
+    left: 800px;
+    top: 1660px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    color: #444444;
+}
+
+.hoopers-roles{
+    position: absolute;
+    width: 394px;
+    height: 141px;
+    left: 793px;
+    top: 1730px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 18px;
+    color: #444444;
+}
+
+#hoopers-button{
+    position: absolute;
+    left: 850px;
+    right: 0px;
+    top: 1940px;
+    bottom: 0px;
+    background: #FC1393;
+    box-shadow: 0px 8px 16px rgba(0, 126, 255, 0.16);
+    border-radius: 8px;
+    width: 220px;
+    height: 65px;
+}
+
+.view-git-text{
+    position: absolute;
+    bottom: -2px;
+    right: -8px;
+    left: -5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
