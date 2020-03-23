@@ -413,13 +413,13 @@ body{
     position: absolute;
     z-index: 2;
     left: 610px;
-    top: 2570px;
+    top: 70px;
 }
 
 #dot{
     position: absolute;
     z-index: 1;
-    top: 2550px;
+    top: 50px;
     left: 600px;
     height: 195px;
     width: 195px;
@@ -430,7 +430,7 @@ body{
 
 #greeting-name{
     position: absolute;
-    top: 2750px;
+    top: 220px;
     left: 570px;
     font-style: normal;
     font-weight: bold;
@@ -443,7 +443,7 @@ body{
     width: 496px;
     height: 141px;
     left: 480px;
-    top: 2850px;
+    top: 310px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -456,7 +456,7 @@ body{
 
 #resume-button{
     position: absolute;
-    top: 3050px;
+    top: 490px;
     left: 600px;
     background-color: #FC1393;
     box-shadow: 0px 8px 16px rgba(0, 126, 255, 0.16);
@@ -480,19 +480,19 @@ body{
 
 #github{
     position: absolute;
-    top: 3200px;
+    top: 590px;
     left: 400px;
 }
 
 #linkedin{
     position: absolute;
-    top: 3200px;
+    top: 590px;
     left: 650px;
 }
 
 #email-logo{
     position: absolute;
-    top: 3200px;
+    top: 590px;
     left: 900px;
 }
 
@@ -501,7 +501,7 @@ body{
     width: 962px;
     height: 141px;
     left: 260px;
-    top: 3350px;
+    top: 710px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -511,8 +511,12 @@ body{
     color: #FC1393;
 }
 
-#bottom-part{
-    background-color: rgba(231, 206, 215, 0.7);
+.bottom-part{
     position: absolute;
-    
+    z-index: 0;
+    width: 1503px;
+    height: 862px;
+    left: -3px;
+    top: 2500px;
+    background: rgba(231, 206, 215, 0.7);
 }
